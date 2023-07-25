@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/49b0934402.js" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <header>
+        <nav class="container mx-auto my-8">
+            <div class=" navbar bg-base-100 rounded-[600px] lg:flex-row-reverse justify-evenly lg:bg-[#F85559]">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a">Home</a></li>
+                      <li><a">About Us</a></li>
+                      <li><a">Shop</a></li>
+                      <li><a">All Fruits</a></li>
+                    </ul>
+                  </div>
+                  <div class="flex lg:justify-between items-center gap-24 w-full ">
+                    <div class="flex">
+                        <img src="./images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-4xl font-bold lg:text-white">Fruit Burst</a>
+                    </div>
+                  <div class="hidden lg:block">
+                    <input class="z-10 rounded-3xl px-4 py-2" type="text" name="" id="" placeholder="Search here">
+                    <i class="relative z-20 -left-8 fa-solid fa-magnifying-glass "></i>
+                    
+                  </div>
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-white">Home</a></li>
+                    <li><a class="text-white">About Us</a></li>
+                    <li><a class="text-white">Shop</a></li>
+                    <li><a class="text-white">All Fruits</a></li>
+                  </ul>
+                  
+                </div>
+                
+              </div>
+        </nav>
+    </header>
+</body>
+</html>
